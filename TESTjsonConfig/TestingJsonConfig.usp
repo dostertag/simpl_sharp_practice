@@ -1,0 +1,24 @@
+
+#SYMBOL_NAME "TestingJsonConfig"
+#DEFAULT_VOLATILE
+#ENABLE_STACK_CHECKING
+#ENABLE_TRACE
+
+
+#DEFINE_CONSTANT	STRING_NAME_LENGTH		25
+
+
+#USER_SIMPLSHARP_LIBRARY "TESTJsonConfig"
+DIGITAL_INPUT PButton;
+
+STRING RmName[STRING_NAME_LENGTH];
+Config testingConfig;
+
+PUSH PButton{
+    RmName = testingConfig.RmName;
+}
+
+
+ Function Main()
+{
+}

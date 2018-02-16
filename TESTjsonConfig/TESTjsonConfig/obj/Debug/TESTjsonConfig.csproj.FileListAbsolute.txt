@@ -1,0 +1,8 @@
+C:\Users\daniel.ostertag\Documents\Visual Studio 2008\Projects\TESTjsonConfig\TESTjsonConfig\bin\Debug\TESTjsonConfig.dll
+C:\Users\daniel.ostertag\Documents\Visual Studio 2008\Projects\TESTjsonConfig\TESTjsonConfig\bin\Debug\TESTjsonConfig.pdb
+C:\Users\daniel.ostertag\Documents\Visual Studio 2008\Projects\TESTjsonConfig\TESTjsonConfig\bin\Debug\Newtonsoft.Json.Compact.dll
+C:\Users\daniel.ostertag\Documents\Visual Studio 2008\Projects\TESTjsonConfig\TESTjsonConfig\bin\Debug\SimplSharpCustomAttributesInterface.dll
+C:\Users\daniel.ostertag\Documents\Visual Studio 2008\Projects\TESTjsonConfig\TESTjsonConfig\bin\Debug\SimplSharpHelperInterface.dll
+C:\Users\daniel.ostertag\Documents\Visual Studio 2008\Projects\TESTjsonConfig\TESTjsonConfig\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\daniel.ostertag\Documents\Visual Studio 2008\Projects\TESTjsonConfig\TESTjsonConfig\obj\Debug\TESTjsonConfig.dll
+C:\Users\daniel.ostertag\Documents\Visual Studio 2008\Projects\TESTjsonConfig\TESTjsonConfig\obj\Debug\TESTjsonConfig.pdb
