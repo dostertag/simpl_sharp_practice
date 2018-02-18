@@ -1,0 +1,10 @@
+C:\Programming\c_sharp_learning\simpl_sharp_practice\ChuckQuotes\ChuckQuotes\bin\Debug\ChuckQuotes.dll
+C:\Programming\c_sharp_learning\simpl_sharp_practice\ChuckQuotes\ChuckQuotes\bin\Debug\ChuckQuotes.pdb
+C:\Programming\c_sharp_learning\simpl_sharp_practice\ChuckQuotes\ChuckQuotes\bin\Debug\SimplSharpCustomAttributesInterface.dll
+C:\Programming\c_sharp_learning\simpl_sharp_practice\ChuckQuotes\ChuckQuotes\bin\Debug\SimplSharpHelperInterface.dll
+C:\Programming\c_sharp_learning\simpl_sharp_practice\ChuckQuotes\ChuckQuotes\obj\Debug\ResolveAssemblyReference.cache
+C:\Programming\c_sharp_learning\simpl_sharp_practice\ChuckQuotes\ChuckQuotes\obj\Debug\ChuckQuotes.dll
+C:\Programming\c_sharp_learning\simpl_sharp_practice\ChuckQuotes\ChuckQuotes\obj\Debug\ChuckQuotes.pdb
+C:\Programming\c_sharp_learning\simpl_sharp_practice\ChuckQuotes\ChuckQuotes\bin\Debug\SimplSharpNewtonsoft.dll
+C:\Programming\c_sharp_learning\simpl_sharp_practice\ChuckQuotes\ChuckQuotes\bin\Debug\SimplSharpSQLHelperInterface.dll
+C:\Programming\c_sharp_learning\simpl_sharp_practice\ChuckQuotes\ChuckQuotes\bin\Debug\SimplSharpReflectionInterface.dll

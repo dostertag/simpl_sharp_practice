@@ -3,7 +3,8 @@ using System.Text;
 using Crestron.SimplSharp;
 using System.Net;
 using Newtonsoft.Json;
-using Crestron.SimplSharp.CrestronIO;                          				// For Basic SIMPL# Classes
+using Crestron.SimplSharp.CrestronIO;
+using Crestron.SimplSharp.Net.Http;                          				// For Basic SIMPL# Classes
 
 namespace ChuckQuotes
 {
@@ -20,29 +21,34 @@ namespace ChuckQuotes
 
         public string GetRandomJoke()
         {
-            string jsonResponse = string.Empty;
             string uri = @"http://api.icndb.com/jokes/random";
-
-            jsonResponse = Get(uri);
-            ChuckSays currentChuck = deserializeJSON(jsonResponse);
-            return currentChuck.value.joke;
-
+            return GetAJoke(uri);
+            
             
         }
-
-        private static string Get(string uri)
+        /// <summary>
+        /// sample code found here:
+        /// https://github.com/plinck/CrestronSSClass/blob/master/SimplSharpDay3_Json/SimplSharpDay3_Json/ControlSystem.cs
+        /// </summary>
+        /// <param name="uri"></param>
+        /// <returns></returns>
+        private static string GetAJoke(string uri)
         {
-            HttpWebRequest request = (HttpWebRequest)WebRequest.Create(uri);
-            request.AutomaticDecompression = DecompressionMethods.GZip;
+            string response = string.Empty;
+            HttpClient client = new HttpClient();
+            HttpClientResponse httpResponse;
+            HttpClientRequest httpRequest = new HttpClientRequest();
+            client.TimeoutEnabled = true;
+            client.Timeout = 5;
+            client.KeepAlive = false;
+            httpRequest.Url.Parse(uri);
+            httpResponse = client.Dispatch(httpRequest);
 
-            using (HttpWebResponse response = (HttpWebResponse)request.GetResponse())
-            using (Stream stream = response.GetResponseStream())
-            using (StreamReader reader = new StreamReader(stream))
-            {
-                return reader.ReadToEnd();
-            }
-
+            ChuckSays currentChuck = deserializeJSON(httpResponse.ContentString);
+            
+            return currentChuck.value.joke;
         }
+
 
         private static ChuckSays deserializeJSON(string json)
         {
@@ -53,10 +59,9 @@ namespace ChuckQuotes
             }
             catch (Exception ex)
             {
-                Console.WriteLine("Error creating Chuck: " + ex.Message.ToString());
-
+                CrestronConsole.ConsoleCommandResponse("Error creating chuck!");
+                return null;                
             }
-            return null;
         }
     }
 }
