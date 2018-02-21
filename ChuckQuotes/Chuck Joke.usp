@@ -99,9 +99,10 @@ MyStruct1 struct;
 *******************************************************************************************/
 THREADSAFE PUSH getAJoke
 {
-	string tmpJoke[1000];
-	tmpJoke = joke.GetRandomJoke();
-	makeString(currentJoke, "%s", tmpJoke);
+	string temporaryJoke[100];
+	joke.GetAJoke();
+	temporaryJoke = joke.randomJoke;
+	makeString(currentJoke, "%s", temporaryJoke);
 	
 }
 /*******************************************************************************************

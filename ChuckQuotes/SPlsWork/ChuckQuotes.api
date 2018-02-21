@@ -1,8 +1,5 @@
 namespace ChuckQuotes;
-        // class declarations
-         class ChuckJoke;
-         class ChuckSays;
-         class Joke;
+{
      class ChuckJoke 
     {
         // class delegates
@@ -56,4 +53,5 @@ namespace ChuckQuotes;
         STRING joke[];
         STRING categories[][];
     };
+}
 
