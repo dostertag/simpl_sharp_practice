@@ -99,7 +99,7 @@ MyStruct1 struct;
 *******************************************************************************************/
 THREADSAFE PUSH getAJoke
 {
-	string temporaryJoke[100];
+	string temporaryJoke[255];
 	joke.GetAJoke();
 	temporaryJoke = joke.randomJoke;
 	makeString(currentJoke, "%s", temporaryJoke);

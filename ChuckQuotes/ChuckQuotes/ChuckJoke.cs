@@ -1,7 +1,7 @@
 ﻿using System;
-using System.Text;
+// using System.Text;
 using Crestron.SimplSharp;
-using System.Net;
+// using System.Net;
 using Newtonsoft.Json;
 using Crestron.SimplSharp.CrestronIO;
 using Crestron.SimplSharp.Net.Http;                          				// For Basic SIMPL# Classes
@@ -12,6 +12,7 @@ namespace ChuckQuotes
     {
 
         public string randomJoke;
+        private string url;
 
         /// <summary>
         /// SIMPL+ can only execute the default constructor. If you have variables that require initialization, please
@@ -39,7 +40,7 @@ namespace ChuckQuotes
         /// <returns></returns>
         public void GetAJoke()
         {
-            string chucksURL = @"http://api.icndb.com/jokes/random.json";
+            url = @"http://api.icndb.com/jokes/random";
 
             try
             {
@@ -47,17 +48,18 @@ namespace ChuckQuotes
                 httpSet.KeepAlive = false;
                 httpSet.Accept = "text/html";
                 HttpClientRequest sRequest = new HttpClientRequest();
-                sRequest.Url.Parse(chucksURL);
+                sRequest.Url.Parse(url);
                 HttpClientResponse sResponse = httpSet.Dispatch(sRequest);
                 var jsontext = sResponse.ContentString;
 
                 ChuckSays currentChuck = JsonConvert.DeserializeObject<ChuckSays>(jsontext);
                 randomJoke = currentChuck.value.joke;
+                CrestronConsole.PrintLine(randomJoke);
 
             }
             catch (Exception e)
             {
-                CrestronConsole.PrintLine("couldn't execute: {0}", e);
+                CrestronConsole.PrintLine("couldn't get a response: {0}", e);
             }
 
             /*
