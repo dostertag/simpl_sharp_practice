@@ -1,0 +1,59 @@
+﻿using Newtonsoft.Json;
+using System;
+using System.IO;
+using System.Net;
+
+namespace ChuckNorris
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string html = string.Empty;
+            string uri = @"http://api.icndb.com/jokes/random";
+
+            html = Get(uri);
+
+            Console.WriteLine(html);
+            ChucksResponse realResponse = deserializeJSON(html);
+            // var chucksResponse = JsonConvert.DeserializeObject<dynamic>(html);
+            //Console.WriteLine(realResponse.ToString());
+
+            Console.WriteLine(realResponse.value.joke);
+
+            // Console.WriteLine(chucksResponse.type);
+            // Console.WriteLine(chucksResponse.id);
+            // Console.WriteLine(chucksResponse.joke);
+            // Console.WriteLine(chucksResponse.categories);
+            Console.ReadKey();
+        }
+
+        private static string Get(string uri)
+        {
+            HttpWebRequest request = (HttpWebRequest)WebRequest.Create(uri);
+            request.AutomaticDecompression = DecompressionMethods.GZip;
+
+            using (HttpWebResponse response = (HttpWebResponse)request.GetResponse())
+            using (Stream stream = response.GetResponseStream())
+            using (StreamReader reader = new StreamReader(stream))
+            {
+                return reader.ReadToEnd();
+            }
+        }
+
+        private static ChucksResponse deserializeJSON(string json)
+        {
+            try
+            {
+                ChucksResponse response = JsonConvert.DeserializeObject<ChucksResponse>(json);
+                return response;
+            }
+            catch(Exception ex)
+            {
+                Console.WriteLine("Error creating Chuck: " + ex.Message.ToString());
+
+            }
+            return null;
+        }
+    }
+}
