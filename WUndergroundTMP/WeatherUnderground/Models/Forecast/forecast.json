@@ -1,0 +1,389 @@
+﻿{
+  "response": {
+    "version": "0.1",
+    "termsofService": "http://www.wunderground.com/weather/api/d/terms.html",
+    "features": {
+      "forecast": 1
+    }
+  },
+  "forecast": {
+    "txt_forecast": {
+      "date": "3:34 PM CST",
+      "forecastday": [
+        {
+          "period": 0,
+          "icon": "mostlycloudy",
+          "icon_url": "http://icons.wxug.com/i/c/k/mostlycloudy.gif",
+          "title": "Friday",
+          "fcttext": "Mainly cloudy. Lows overnight in the low 60s.",
+          "fcttext_metric": "Mainly cloudy. Low 15C.",
+          "pop": "20"
+        },
+        {
+          "period": 1,
+          "icon": "nt_mostlycloudy",
+          "icon_url": "http://icons.wxug.com/i/c/k/nt_mostlycloudy.gif",
+          "title": "Friday Night",
+          "fcttext": "Mainly cloudy. A stray shower or thunderstorm is possible. Low near 60F. Winds S at 10 to 20 mph.",
+          "fcttext_metric": "Partly cloudy early followed by cloudy skies overnight. A stray shower or thunderstorm is possible. Low near 15C. Winds S at 25 to 40 km/h.",
+          "pop": "20"
+        },
+        {
+          "period": 2,
+          "icon": "partlycloudy",
+          "icon_url": "http://icons.wxug.com/i/c/k/partlycloudy.gif",
+          "title": "Saturday",
+          "fcttext": "Cloudy skies early, then partly cloudy in the afternoon. A stray shower or thunderstorm is possible. High near 75F. Winds S at 5 to 10 mph.",
+          "fcttext_metric": "Cloudy early with partial sunshine expected late. A stray shower or thunderstorm is possible. High 24C. Winds S at 10 to 15 km/h.",
+          "pop": "20"
+        },
+        {
+          "period": 3,
+          "icon": "nt_mostlycloudy",
+          "icon_url": "http://icons.wxug.com/i/c/k/nt_mostlycloudy.gif",
+          "title": "Saturday Night",
+          "fcttext": "Partly cloudy skies during the evening will give way to cloudy skies overnight. Low 56F. Winds NNE at 10 to 20 mph.",
+          "fcttext_metric": "Partly cloudy skies early will become overcast later during the night. Low 13C. Winds NNE at 15 to 30 km/h.",
+          "pop": "20"
+        },
+        {
+          "period": 4,
+          "icon": "cloudy",
+          "icon_url": "http://icons.wxug.com/i/c/k/cloudy.gif",
+          "title": "Sunday",
+          "fcttext": "Cloudy. High 61F. Winds N at 15 to 25 mph.",
+          "fcttext_metric": "Cloudy. High 16C. Winds N at 25 to 40 km/h.",
+          "pop": "0"
+        },
+        {
+          "period": 5,
+          "icon": "nt_partlycloudy",
+          "icon_url": "http://icons.wxug.com/i/c/k/nt_partlycloudy.gif",
+          "title": "Sunday Night",
+          "fcttext": "Partly cloudy skies. Low 41F. Winds N at 10 to 20 mph.",
+          "fcttext_metric": "A few clouds. Low around 5C. Winds N at 15 to 30 km/h.",
+          "pop": "0"
+        },
+        {
+          "period": 6,
+          "icon": "clear",
+          "icon_url": "http://icons.wxug.com/i/c/k/clear.gif",
+          "title": "Monday",
+          "fcttext": "Generally sunny despite a few afternoon clouds. High 56F. Winds N at 10 to 20 mph.",
+          "fcttext_metric": "Sunshine and some clouds. High 13C. Winds N at 15 to 30 km/h.",
+          "pop": "0"
+        },
+        {
+          "period": 7,
+          "icon": "nt_clear",
+          "icon_url": "http://icons.wxug.com/i/c/k/nt_clear.gif",
+          "title": "Monday Night",
+          "fcttext": "A mostly clear sky. Low 41F. Winds N at 10 to 15 mph.",
+          "fcttext_metric": "A mostly clear sky. Low around 5C. Winds NNE at 10 to 15 km/h.",
+          "pop": "0"
+        }
+      ]
+    },
+    "simpleforecast": {
+      "forecastday": [
+        {
+          "date": {
+            "epoch": "1520643600",
+            "pretty": "7:00 PM CST on March 09, 2018",
+            "day": 9,
+            "month": 3,
+            "year": 2018,
+            "yday": 67,
+            "hour": 19,
+            "min": "00",
+            "sec": 0,
+            "isdst": "0",
+            "monthname": "March",
+            "monthname_short": "Mar",
+            "weekday_short": "Fri",
+            "weekday": "Friday",
+            "ampm": "PM",
+            "tz_short": "CST",
+            "tz_long": "America/Chicago"
+          },
+          "period": 1,
+          "high": {
+            "fahrenheit": "75",
+            "celsius": "23"
+          },
+          "low": {
+            "fahrenheit": "60",
+            "celsius": "16"
+          },
+          "conditions": "Mostly Cloudy",
+          "icon": "mostlycloudy",
+          "icon_url": "http://icons.wxug.com/i/c/k/mostlycloudy.gif",
+          "skyicon": "",
+          "pop": 20,
+          "qpf_allday": {
+            "in": 0.00,
+            "mm": 0
+          },
+          "qpf_day": {
+            "in": null,
+            "mm": null
+          },
+          "qpf_night": {
+            "in": 0.00,
+            "mm": 0
+          },
+          "snow_allday": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "snow_day": {
+            "in": null,
+            "cm": null
+          },
+          "snow_night": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "maxwind": {
+            "mph": 22,
+            "kph": 35,
+            "dir": "South",
+            "degrees": 0
+          },
+          "avewind": {
+            "mph": 12,
+            "kph": 20,
+            "dir": "South",
+            "degrees": 0
+          },
+          "avehumidity": 74,
+          "maxhumidity": 0,
+          "minhumidity": 0
+        },
+        {
+          "date": {
+            "epoch": "1520730000",
+            "pretty": "7:00 PM CST on March 10, 2018",
+            "day": 10,
+            "month": 3,
+            "year": 2018,
+            "yday": 68,
+            "hour": 19,
+            "min": "00",
+            "sec": 0,
+            "isdst": "0",
+            "monthname": "March",
+            "monthname_short": "Mar",
+            "weekday_short": "Sat",
+            "weekday": "Saturday",
+            "ampm": "PM",
+            "tz_short": "CST",
+            "tz_long": "America/Chicago"
+          },
+          "period": 2,
+          "high": {
+            "fahrenheit": "75",
+            "celsius": "24"
+          },
+          "low": {
+            "fahrenheit": "56",
+            "celsius": "13"
+          },
+          "conditions": "Partly Cloudy",
+          "icon": "partlycloudy",
+          "icon_url": "http://icons.wxug.com/i/c/k/partlycloudy.gif",
+          "skyicon": "",
+          "pop": 20,
+          "qpf_allday": {
+            "in": 0.00,
+            "mm": 0
+          },
+          "qpf_day": {
+            "in": 0.00,
+            "mm": 0
+          },
+          "qpf_night": {
+            "in": 0.00,
+            "mm": 0
+          },
+          "snow_allday": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "snow_day": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "snow_night": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "maxwind": {
+            "mph": 10,
+            "kph": 16,
+            "dir": "S",
+            "degrees": 172
+          },
+          "avewind": {
+            "mph": 9,
+            "kph": 14,
+            "dir": "S",
+            "degrees": 172
+          },
+          "avehumidity": 75,
+          "maxhumidity": 0,
+          "minhumidity": 0
+        },
+        {
+          "date": {
+            "epoch": "1520812800",
+            "pretty": "7:00 PM CDT on March 11, 2018",
+            "day": 11,
+            "month": 3,
+            "year": 2018,
+            "yday": 69,
+            "hour": 19,
+            "min": "00",
+            "sec": 0,
+            "isdst": "1",
+            "monthname": "March",
+            "monthname_short": "Mar",
+            "weekday_short": "Sun",
+            "weekday": "Sunday",
+            "ampm": "PM",
+            "tz_short": "CDT",
+            "tz_long": "America/Chicago"
+          },
+          "period": 3,
+          "high": {
+            "fahrenheit": "61",
+            "celsius": "16"
+          },
+          "low": {
+            "fahrenheit": "41",
+            "celsius": "5"
+          },
+          "conditions": "Overcast",
+          "icon": "cloudy",
+          "icon_url": "http://icons.wxug.com/i/c/k/cloudy.gif",
+          "skyicon": "",
+          "pop": 0,
+          "qpf_allday": {
+            "in": 0.00,
+            "mm": 0
+          },
+          "qpf_day": {
+            "in": 0.00,
+            "mm": 0
+          },
+          "qpf_night": {
+            "in": 0.00,
+            "mm": 0
+          },
+          "snow_allday": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "snow_day": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "snow_night": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "maxwind": {
+            "mph": 25,
+            "kph": 40,
+            "dir": "N",
+            "degrees": 358
+          },
+          "avewind": {
+            "mph": 18,
+            "kph": 29,
+            "dir": "N",
+            "degrees": 358
+          },
+          "avehumidity": 58,
+          "maxhumidity": 0,
+          "minhumidity": 0
+        },
+        {
+          "date": {
+            "epoch": "1520899200",
+            "pretty": "7:00 PM CDT on March 12, 2018",
+            "day": 12,
+            "month": 3,
+            "year": 2018,
+            "yday": 70,
+            "hour": 19,
+            "min": "00",
+            "sec": 0,
+            "isdst": "1",
+            "monthname": "March",
+            "monthname_short": "Mar",
+            "weekday_short": "Mon",
+            "weekday": "Monday",
+            "ampm": "PM",
+            "tz_short": "CDT",
+            "tz_long": "America/Chicago"
+          },
+          "period": 4,
+          "high": {
+            "fahrenheit": "56",
+            "celsius": "13"
+          },
+          "low": {
+            "fahrenheit": "41",
+            "celsius": "5"
+          },
+          "conditions": "Clear",
+          "icon": "clear",
+          "icon_url": "http://icons.wxug.com/i/c/k/clear.gif",
+          "skyicon": "",
+          "pop": 0,
+          "qpf_allday": {
+            "in": 0.00,
+            "mm": 0
+          },
+          "qpf_day": {
+            "in": 0.00,
+            "mm": 0
+          },
+          "qpf_night": {
+            "in": 0.00,
+            "mm": 0
+          },
+          "snow_allday": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "snow_day": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "snow_night": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "maxwind": {
+            "mph": 20,
+            "kph": 32,
+            "dir": "N",
+            "degrees": 1
+          },
+          "avewind": {
+            "mph": 14,
+            "kph": 23,
+            "dir": "N",
+            "degrees": 1
+          },
+          "avehumidity": 52,
+          "maxhumidity": 0,
+          "minhumidity": 0
+        }
+      ]
+    }
+  }
+}
+

@@ -1,0 +1,8 @@
+C:\Programming\c_sharp_learning\WeatherUnderground\WeatherUnderground\bin\Debug\WeatherUnderground.exe.config
+C:\Programming\c_sharp_learning\WeatherUnderground\WeatherUnderground\bin\Debug\WeatherUnderground.exe
+C:\Programming\c_sharp_learning\WeatherUnderground\WeatherUnderground\bin\Debug\WeatherUnderground.pdb
+C:\Programming\c_sharp_learning\WeatherUnderground\WeatherUnderground\obj\Debug\WeatherUnderground.csprojResolveAssemblyReference.cache
+C:\Programming\c_sharp_learning\WeatherUnderground\WeatherUnderground\obj\Debug\WeatherUnderground.exe
+C:\Programming\c_sharp_learning\WeatherUnderground\WeatherUnderground\obj\Debug\WeatherUnderground.pdb
+C:\Programming\c_sharp_learning\WeatherUnderground\WeatherUnderground\bin\Debug\Newtonsoft.Json.dll
+C:\Programming\c_sharp_learning\WeatherUnderground\WeatherUnderground\bin\Debug\Newtonsoft.Json.xml
