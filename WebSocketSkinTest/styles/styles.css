@@ -1,0 +1,28 @@
+
+
+body {
+    background-color: #F7F7F7;
+}
+
+.home-nav {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 525px;
+    margin-top: 40px;
+}
+.home-nav .active {
+    font-weight: normal;
+}
+.home-nav ul li{
+    display: inline;
+    list-style-type: none;
+    margin-right: 17px;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    float: left;
+    margin-left: 17px;
+    width: 70px;
+    font-weight: 300;
+}
