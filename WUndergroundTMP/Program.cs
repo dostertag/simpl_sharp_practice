@@ -16,7 +16,7 @@ namespace WeatherUnderground
         static void Main(string[] args)
         {
             string html = string.Empty;
-            string uRL = @"http://api.wunderground.com/api/53fbb860e4fa3b14/conditions/q/TX/Dallas.json";
+            string uRL = @"http://api.wunderground.com/" + API_KEY  + "/conditions/q/TX/Dallas.json";
 
             html = get(uRL);
             Console.WriteLine(html);
