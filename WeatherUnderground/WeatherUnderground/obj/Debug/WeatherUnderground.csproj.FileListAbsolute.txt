@@ -1,0 +1,10 @@
+C:\Personal_Programming\git\simpl_sharp_practice\WeatherUnderground\WeatherUnderground\obj\Debug\ResolveAssemblyReference.cache
+C:\Personal_Programming\git\simpl_sharp_practice\WeatherUnderground\WeatherUnderground\bin\Debug\WeatherUnderground.dll
+C:\Personal_Programming\git\simpl_sharp_practice\WeatherUnderground\WeatherUnderground\bin\Debug\WeatherUnderground.pdb
+C:\Personal_Programming\git\simpl_sharp_practice\WeatherUnderground\WeatherUnderground\bin\Debug\SimplSharpCustomAttributesInterface.dll
+C:\Personal_Programming\git\simpl_sharp_practice\WeatherUnderground\WeatherUnderground\bin\Debug\SimplSharpHelperInterface.dll
+C:\Personal_Programming\git\simpl_sharp_practice\WeatherUnderground\WeatherUnderground\bin\Debug\SimplSharpNewtonsoft.dll
+C:\Personal_Programming\git\simpl_sharp_practice\WeatherUnderground\WeatherUnderground\bin\Debug\SimplSharpReflectionInterface.dll
+C:\Personal_Programming\git\simpl_sharp_practice\WeatherUnderground\WeatherUnderground\bin\Debug\SimplSharpSQLHelperInterface.dll
+C:\Personal_Programming\git\simpl_sharp_practice\WeatherUnderground\WeatherUnderground\obj\Debug\WeatherUnderground.dll
+C:\Personal_Programming\git\simpl_sharp_practice\WeatherUnderground\WeatherUnderground\obj\Debug\WeatherUnderground.pdb
